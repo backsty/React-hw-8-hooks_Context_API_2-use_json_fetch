@@ -1,0 +1,45 @@
+.error-component {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.error-component:hover {
+  transform: translateY(-5px);
+}
+
+.error-component h2 {
+  color: #dc3545;
+  border-bottom: 1px solid #e9ecef;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.error-component .error-message {
+  background-color: #ffe9ec;
+  border: 1px solid #ffb8c2;
+}
+
+.loading-indicator {
+  color: #6c757d;
+  font-style: italic;
+}
+
+.data-success {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 0.75rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
